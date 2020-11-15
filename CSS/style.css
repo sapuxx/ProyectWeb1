@@ -54,16 +54,27 @@ body{
     float: left;
     width: 70%;
     padding:0 30px;
+    margin-bottom: 40px;
     box-sizing: border-box;
+}
+#main p{
+    font-size: 20px;
+}
+#main h1{
+    font-size: 30px;
 }
 #sidebar{
     float: right;
     width: 30%;
     padding:0 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
     border: 5px rgb(44, 18, 39) solid;
     box-sizing: border-box;
     background-color: rgb(88, 53, 81);
     color: honeydew;
+    font-size: 25px;
+    line-height: 1.6em;
 }
 #main-footer{
     text-align: center;
@@ -71,4 +82,31 @@ body{
     font-size: 12px;
     background-color: rgb(88, 53, 81);
     color: honeydew;
+}
+#news-container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    background-color: rgb(88, 53, 81);
+    padding:0 30px;
+    padding-bottom: 20px;
+    color: honeydew;  
+}
+#news-container h1{
+    font-size: 40px;  
+}
+.news{
+    width: 100%;
+    margin:5px;
+    overflow: hidden;
+    background-color: rgb(224, 165, 213);
+    padding:0 30px;
+    padding-bottom: 10px;
+    color:black;
+    border: 5px rgb(44, 18, 39) solid;
+    box-sizing: border-box;   
+}
+.news h1{
+    color:black;
+    font-size: 30px;  
 }
